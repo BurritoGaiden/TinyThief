@@ -1,0 +1,127 @@
+﻿[2016.03.23-18.33.25:980][  0]Log file open, 03/23/16 14:33:25
+[2016.03.23-18.33.25:980][  0]LogInit:Display: Running engine for game: FamilyThief
+[2016.03.23-18.33.25:980][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.23-18.33.25:980][  0]LogInit:Display: RandInit(-904830416) SRandInit(-904830414).
+[2016.03.23-18.33.25:980][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.23-18.33.25:980][  0]LogStats: Stats thread started at 0.075810
+[2016.03.23-18.33.25:980][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.23-18.33.25:980][  0]LogInit: API Version: 2758231
+[2016.03.23-18.33.25:980][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.23-18.33.25:980][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.23-18.33.25:980][  0]LogInit: Build Configuration: Development
+[2016.03.23-18.33.25:980][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.23-18.33.25:980][  0]LogInit: Command line:  
+[2016.03.23-18.33.25:980][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.23-18.33.25:980][  0]LogInit: Rocket: 1
+[2016.03.23-18.33.25:987][  0]LogInit: Using libcurl 7.41.0
+[2016.03.23-18.33.25:987][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.23-18.33.25:987][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.23-18.33.25:988][  0]LogInit:  - other features:
+[2016.03.23-18.33.25:988][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.23-18.33.25:988][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.23-18.33.25:988][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.23-18.33.25:988][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.23-18.33.25:988][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.23-18.33.25:988][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.23-18.33.25:988][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.23-18.33.25:988][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.23-18.33.25:988][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.23-18.33.25:988][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.23-18.33.25:996][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.23-18.33.26:004][  0]LogInit: Object subsystem initialized
+[2016.03.23-18.33.26:005][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.33.26:005][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.23-18.33.26:017][  0]LogInit: Computer: DESKTOP-J618I8O
+[2016.03.23-18.33.26:017][  0]LogInit: User: Doug
+[2016.03.23-18.33.26:017][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.23-18.33.26:017][  0]LogInit: High frequency timer resolution =3.897226 MHz
+[2016.03.23-18.33.26:017][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.03.23-18.33.26:017][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.23-18.33.26:017][  0]LogMemory: Process Physical Memory: 56.25 MB used, 56.25 MB peak
+[2016.03.23-18.33.26:017][  0]LogMemory: Process Virtual Memory: 56.75 MB used, 56.75 MB peak
+[2016.03.23-18.33.26:017][  0]LogMemory: Physical Memory: 4880.28 MB used, 16344.24 MB total
+[2016.03.23-18.33.26:017][  0]LogMemory: Virtual Memory: 378.96 MB used, 134217728.00 MB total
+[2016.03.23-18.33.26:058][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.23-18.33.26:638][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M                   (Feature Level 11_0)
+[2016.03.23-18.33.26:638][  0]LogD3D11RHI: Adapter has 8093MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 1 output[s]
+[2016.03.23-18.33.26:639][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.23-18.33.26:639][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 0 output[s]
+[2016.03.23-18.33.26:639][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.23-18.33.26:645][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.23-18.33.26:645][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.23-18.33.26:662][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.23-18.33.26:678][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Intermediate/Shaders/WorkingDirectory/5824/).
+[2016.03.23-18.33.26:679][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Doug!/AppData/Local/Temp/UnrealShaderWorkingDir/38E0AFE942206365322F589F474176BE/'.
+[2016.03.23-18.33.26:679][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.23-18.33.27:716][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.23-18.33.27:721][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.23-18.33.27:727][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.23-18.33.27:732][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.23-18.33.27:737][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.23-18.33.27:741][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.23-18.33.27:744][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.23-18.33.27:747][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.23-18.33.27:751][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.23-18.33.27:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.23-18.33.27:758][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.23-18.33.27:766][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.23-18.33.27:766][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.23-18.33.27:766][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.23-18.33.27:784][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.23-18.33.27:788][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.23-18.33.27:791][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.23-18.33.27:795][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.23-18.33.27:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.23-18.33.27:879][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.23-18.33.27:933][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.33.27:933][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.23-18.33.27:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.23-18.33.27:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.23-18.33.27:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.23-18.33.27:934][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.23-18.33.28:013][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.23-18.33.28:024][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Doug!/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.23-18.33.28:259][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.33.28:264][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.23-18.33.28:410][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.23-18.33.28:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.23-18.33.28:665][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.23-18.33.29:577][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.23-18.33.29:685][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.03.23-18.33.29:897][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.33.29:898][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.33.29:909][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.33.29:920][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.33.30:152][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.23-18.33.30:152][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.23-18.33.30:218][  0]LogEngine: Initializing Engine...
+[2016.03.23-18.33.30:221][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.23-18.33.30:221][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.23-18.33.30:356][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.23-18.33.30:365][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-18.33.30:400][  0]LogInit: FAudioDevice initialized.
+[2016.03.23-18.33.30:424][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.33.30:430][  0]LogInit: Texture streaming: Enabled
+[2016.03.23-18.33.30:435][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.23-18.33.30:435][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.23-18.33.30:435][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 52b10e6445fa931ea2b57b9ab393f2a9|a024f71aa653453a8ecdbc4f8186e225|56a0a37a-fce5-4ac1-879f-0e1c059c54f2
+[2016.03.23-18.33.30:435][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.23-18.33.30:445][  0]LogInit: Transaction tracking system initialized
+[2016.03.23-18.33.30:475][  0]BlueprintLog: New page: Editor Load
+[2016.03.23-18.33.30:557][  0]LocalizationService: Info Localization service is disabled
+[2016.03.23-18.33.30:632][  0]LogConsoleResponse:Display: 
+[2016.03.23-18.33.30:757][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.23-18.33.30:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/' took 0.02s
+[2016.03.23-18.33.30:824][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.33.30:824][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.23-18.33.30:825][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.33.30:828][  0]MapCheck: New page: Map Check
+[2016.03.23-18.33.30:828][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.33.30:842][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000078E4453B00
+[2016.03.23-18.33.31:748][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.23-18.33.31:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.23-18.33.31:758][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.23-18.33.31:822][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.991ms to complete.
+[2016.03.23-18.33.31:822][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.998
+[2016.03.23-18.33.31:931][  0]LogCollectionManager: Loaded 0 collections in 0.001798 seconds
+[2

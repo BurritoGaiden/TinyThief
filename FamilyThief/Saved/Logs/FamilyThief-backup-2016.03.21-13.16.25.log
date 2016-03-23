@@ -1,0 +1,843 @@
+﻿[2016.03.21-07.36.10:644][  0]Log file open, 03/21/16 03:36:10
+[2016.03.21-07.36.10:644][  0]LogInit:Display: Running engine for game: FamilyThief
+[2016.03.21-07.36.10:644][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.21-07.36.10:644][  0]LogInit:Display: RandInit(1199590700) SRandInit(1199590701).
+[2016.03.21-07.36.10:644][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.21-07.36.10:644][  0]LogStats: Stats thread started at 0.064130
+[2016.03.21-07.36.10:644][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.21-07.36.10:644][  0]LogInit: API Version: 2758231
+[2016.03.21-07.36.10:644][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.21-07.36.10:644][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.21-07.36.10:644][  0]LogInit: Build Configuration: Development
+[2016.03.21-07.36.10:644][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.21-07.36.10:644][  0]LogInit: Command line:  
+[2016.03.21-07.36.10:644][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.21-07.36.10:644][  0]LogInit: Rocket: 1
+[2016.03.21-07.36.10:649][  0]LogInit: Using libcurl 7.41.0
+[2016.03.21-07.36.10:649][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.21-07.36.10:649][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.21-07.36.10:649][  0]LogInit:  - other features:
+[2016.03.21-07.36.10:649][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.21-07.36.10:649][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.21-07.36.10:649][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.21-07.36.10:649][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.21-07.36.10:649][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.21-07.36.10:649][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.21-07.36.10:649][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.21-07.36.10:649][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.21-07.36.10:649][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.21-07.36.10:649][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.21-07.36.10:653][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.21-07.36.10:657][  0]LogInit: Object subsystem initialized
+[2016.03.21-07.36.10:658][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-07.36.10:658][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.21-07.36.10:665][  0]LogInit: Computer: DESKTOP-J618I8O
+[2016.03.21-07.36.10:665][  0]LogInit: User: Doug
+[2016.03.21-07.36.10:665][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.21-07.36.10:665][  0]LogInit: High frequency timer resolution =3.897233 MHz
+[2016.03.21-07.36.10:665][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.03.21-07.36.10:665][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.21-07.36.10:665][  0]LogMemory: Process Physical Memory: 56.19 MB used, 56.19 MB peak
+[2016.03.21-07.36.10:665][  0]LogMemory: Process Virtual Memory: 58.71 MB used, 58.71 MB peak
+[2016.03.21-07.36.10:665][  0]LogMemory: Physical Memory: 5064.35 MB used, 16344.24 MB total
+[2016.03.21-07.36.10:665][  0]LogMemory: Virtual Memory: 380.89 MB used, 134217728.00 MB total
+[2016.03.21-07.36.10:693][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.21-07.36.11:045][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M                   (Feature Level 11_0)
+[2016.03.21-07.36.11:045][  0]LogD3D11RHI: Adapter has 8093MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 3 output[s]
+[2016.03.21-07.36.11:046][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.21-07.36.11:046][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 0 output[s]
+[2016.03.21-07.36.11:046][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.21-07.36.11:049][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.21-07.36.11:049][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.21-07.36.11:058][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.21-07.36.11:072][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Intermediate/Shaders/WorkingDirectory/6020/).
+[2016.03.21-07.36.11:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Doug!/AppData/Local/Temp/UnrealShaderWorkingDir/114070B447E197C03C8B768ECAA45898/'.
+[2016.03.21-07.36.11:072][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.21-07.36.11:691][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.21-07.36.11:694][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.21-07.36.11:697][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.21-07.36.11:701][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.21-07.36.11:704][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.21-07.36.11:706][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.21-07.36.11:708][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.21-07.36.11:710][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.21-07.36.11:712][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.21-07.36.11:713][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.21-07.36.11:715][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.21-07.36.11:719][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.21-07.36.11:719][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.21-07.36.11:720][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.21-07.36.11:734][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.21-07.36.11:736][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.21-07.36.11:738][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.21-07.36.11:740][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.21-07.36.11:740][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.21-07.36.11:784][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.21-07.36.11:820][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.21-07.36.11:863][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.21-07.36.11:875][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Doug!/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.21-07.36.12:005][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-07.36.12:007][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.21-07.36.12:082][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.21-07.36.12:083][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.21-07.36.12:241][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.21-07.36.12:760][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.21-07.36.12:846][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.03.21-07.36.12:949][  0]SourceControl: Info Source control is disabled
+[2016.03.21-07.36.12:950][  0]SourceControl: Info Source control is disabled
+[2016.03.21-07.36.12:956][  0]SourceControl: Info Source control is disabled
+[2016.03.21-07.36.12:962][  0]SourceControl: Info Source control is disabled
+[2016.03.21-07.36.13:092][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.21-07.36.13:092][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.21-07.36.13:135][  0]LogEngine: Initializing Engine...
+[2016.03.21-07.36.13:136][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.21-07.36.13:136][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.21-07.36.13:214][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.21-07.36.13:221][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.36.13:226][  0]LogInit: FAudioDevice initialized.
+[2016.03.21-07.36.13:244][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.21-07.36.13:248][  0]LogInit: Texture streaming: Enabled
+[2016.03.21-07.36.13:251][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.21-07.36.13:251][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.21-07.36.13:251][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 52b10e6445fa931ea2b57b9ab393f2a9|a024f71aa653453a8ecdbc4f8186e225|56a0a37a-fce5-4ac1-879f-0e1c059c54f2
+[2016.03.21-07.36.13:251][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.21-07.36.13:257][  0]LogInit: Transaction tracking system initialized
+[2016.03.21-07.36.13:271][  0]BlueprintLog: New page: Editor Load
+[2016.03.21-07.36.13:312][  0]LocalizationService: Info Localization service is disabled
+[2016.03.21-07.36.13:359][  0]LogConsoleResponse:Display: 
+[2016.03.21-07.36.13:436][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.21-07.36.13:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/' took 0.01s
+[2016.03.21-07.36.13:467][  0]SourceControl: Info Source control is disabled
+[2016.03.21-07.36.13:467][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.21-07.36.13:468][  0]LightingResults: New page: Lighting Build
+[2016.03.21-07.36.13:469][  0]MapCheck: New page: Map Check
+[2016.03.21-07.36.13:469][  0]LightingResults: New page: Lighting Build
+[2016.03.21-07.36.13:477][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B502BB00
+[2016.03.21-07.36.13:875][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.36.13:881][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.21-07.36.13:881][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.21-07.36.13:916][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.726ms to complete.
+[2016.03.21-07.36.13:916][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.448
+[2016.03.21-07.36.14:036][  0]LogCollectionManager: Loaded 0 collections in 0.000860 seconds
+[2016.03.21-07.36.14:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/Collections/' took 0.01s
+[2016.03.21-07.36.14:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/Developers/Doug/Collections/' took 0.01s
+[2016.03.21-07.36.14:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/Collections/' took 0.01s
+[2016.03.21-07.36.14:083][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.21-07.36.14:088][  0]LogContentBrowser: Native class hierarchy populated in 0.0054 seconds. Added 1893 classes and 338 folders.
+[2016.03.21-07.36.14:092][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.03.21-07.36.14:120][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.21-07.36.14:122][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.03.21-07.36.14:136][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.21-07.36.14:140][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.21-07.36.14:163][  0]LogLoad: Full Startup: 3.83 seconds (BP compile: 0.10 seconds)
+[2016.03.21-07.36.14:180][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.21-07.36.14:180][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.21-07.36.14:182][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.21-07.36.14:225][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.21-07.36.14:339][  0]LogRenderer: Reallocating scene render targets to support 1360x724 (Frame:2).
+[2016.03.21-07.36.14:473][  4]LogAssetRegistry: Asset discovery search completed in 1.6389 seconds
+[2016.03.21-07.36.14:473][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.21-07.36.14:473][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.03.21-07.36.48:747][ 54]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1)
+[2016.03.21-07.36.48:904][ 54]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.03.21-07.36.48:951][ 54]LogTexture:Display: Building textures: T_ML_Aluminum01 (DXT1)
+[2016.03.21-07.36.49:077][ 54]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.03.21-07.36.49:114][ 54]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.03.21-07.36.49:300][ 54]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.03.21-07.36.49:689][ 54]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1)
+[2016.03.21-07.36.49:779][ 54]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.03.21-07.36.49:811][ 54]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2016.03.21-07.36.49:837][ 54]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.03.21-07.37.22:876][886]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-07.38.46:345][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.38.46:347][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.02] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 4 ms]
+[2016.03.21-07.38.46:348][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.02] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.21-07.38.46:348][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.02] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.21-07.38.46:370][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.38.46:372][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.04] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 4 ms]
+[2016.03.21-07.38.46:372][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.04] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.21-07.38.46:372][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0156.04] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.21-07.38.50:766][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.38.50:773][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.44] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 16 ms]
+[2016.03.21-07.38.50:773][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.44] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.21-07.38.50:773][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.44] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.21-07.38.50:821][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.49] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 47 ms]
+[2016.03.21-07.38.50:821][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.38.50:821][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.21-07.38.50:821][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.21-07.38.50:857][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.53] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 35 ms]
+[2016.03.21-07.38.50:857][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.53] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.21-07.38.50:857][ 40]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0160.53] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2016.03.21-07.38.50:857][ 40]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2016.03.21-07.38.50:857][ 40]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2016.03.21-07.38.50:964][ 40]LogSavePackage: Save=54.278511ms
+[2016.03.21-07.38.50:964][ 40]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/Ue4ASP_Character4E69181345093301989150B9D4C4C0C3.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/Ue4ASP_Character.uasset'
+[2016.03.21-07.38.50:966][ 40]LogSavePackage: Total save time: 58.619797ms
+[2016.03.21-07.38.50:966][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/Ue4ASP_Character.uasset
+[2016.03.21-07.38.51:000][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.38.51:261][ 40]LogSavePackage: Save=101.247475ms
+[2016.03.21-07.38.51:261][ 40]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/UE4ASP_HeroTPP_AnimBlueprint7E89F98149B03D4E4F7968A31A04445B.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2016.03.21-07.38.51:263][ 40]LogSavePackage: Total save time: 115.395203ms
+[2016.03.21-07.38.51:263][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2016.03.21-07.38.52:227][ 97]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2016.03.21-07.39.17:440][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.39.17:450][604]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AICharacter_OLD.AICharacter_OLD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AICharacter.PackageMetaData'
+[2016.03.21-07.39.17:450][604]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AICharacter_OLD.SKEL_AICharacter_OLD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AICharacter.PackageMetaData'
+[2016.03.21-07.39.17:524][604]LogSavePackage: Save=17.234022ms
+[2016.03.21-07.39.17:524][604]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/AICharacter_OLDF9966CC64BA734462CDB50A7F87DE8F3.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AICharacter_OLD.uasset'
+[2016.03.21-07.39.17:526][604]LogSavePackage: Total save time: 19.315757ms
+[2016.03.21-07.39.17:526][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AICharacter_OLD.uasset
+[2016.03.21-07.39.17:550][604]LogSavePackage: Save=6.867949ms
+[2016.03.21-07.39.17:550][604]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/AICharacter4A38DA1448B7FDA041DC6A865163AF0A.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AICharacter.uasset'
+[2016.03.21-07.39.17:552][604]LogSavePackage: Total save time: 18.546235ms
+[2016.03.21-07.39.17:552][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AICharacter.uasset
+[2016.03.21-07.39.30:964][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.39.30:975][400]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_OLD.ThirdPersonCharacter_OLD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2016.03.21-07.39.30:975][400]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_OLD.SKEL_ThirdPersonCharacter_OLD_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2016.03.21-07.39.31:097][400]LogSavePackage: Save=55.000046ms
+[2016.03.21-07.39.31:097][400]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonCharacter_OLDB40FE38C4169A0A1515342B9E437DCE8.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_OLD.uasset'
+[2016.03.21-07.39.31:098][400]LogSavePackage: Total save time: 56.562953ms
+[2016.03.21-07.39.31:098][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_OLD.uasset
+[2016.03.21-07.39.31:119][400]LogSavePackage: Save=6.535406ms
+[2016.03.21-07.39.31:119][400]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonCharacterA007010B4BF0FC0D2AD7148B69409BB1.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.03.21-07.39.31:121][400]LogSavePackage: Total save time: 17.063901ms
+[2016.03.21-07.39.31:121][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.03.21-07.39.46:405][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.39.46:411][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.08] Compile of PlayerShooterCharacter successful, but with 1 Warning(s) [in 16 ms]
+[2016.03.21-07.39.46:411][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.08] Compile of PlayerShooterCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.21-07.39.46:411][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.08] Compile of PlayerShooterCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.21-07.39.46:450][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.12] Compile of PlayerShooterCharacter successful, but with 4 Warning(s) [in 37 ms]
+[2016.03.21-07.39.46:450][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.39.46:450][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.21-07.39.46:463][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.13] Compile of PlayerShooterCharacter successful, but with 5 Warning(s) [in 12 ms]
+[2016.03.21-07.39.46:463][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.13] Compile of PlayerShooterCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.21-07.39.46:463][311]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0216.13] Compile of PlayerShooterCharacter successful, but with 7 Warning(s) [in 0 ms]
+[2016.03.21-07.39.46:463][311]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PlayerShooterCharacter.PlayerShooterCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.PackageMetaData'
+[2016.03.21-07.39.46:463][311]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PlayerShooterCharacter.SKEL_PlayerShooterCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.PackageMetaData'
+[2016.03.21-07.39.46:563][311]LogSavePackage: Save=53.617016ms
+[2016.03.21-07.39.46:563][311]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacterFABD0FE94A72CC272BB317B6770F65E6.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.39.46:564][311]LogSavePackage: Total save time: 55.433173ms
+[2016.03.21-07.39.46:564][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.39.46:596][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.39.46:828][311]LogSavePackage: Save=90.914505ms
+[2016.03.21-07.39.46:828][311]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/UE4ASP_HeroTPP_AnimBlueprintDBCCC8D142FD1E4EE4941F94D6C5261C.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2016.03.21-07.39.46:829][311]LogSavePackage: Total save time: 98.936349ms
+[2016.03.21-07.39.46:829][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2016.03.21-07.39.52:327][633]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.21-07.39.52:611][633]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.03.21-07.39.52:874][633]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.39.54:599][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.39.54:816][732]LogSavePackage: Save=180.561432ms
+[2016.03.21-07.39.54:816][732]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMap292A7265471A19CEC0118687822F1FE4.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.39.54:819][732]LogSavePackage: Total save time: 199.791491ms
+[2016.03.21-07.39.54:819][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-07.40.07:383][476]LogSavePackage: Save=7.149431ms
+[2016.03.21-07.40.07:383][476]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonGameModeFFA9008442E3E886D3B83C978F433706.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2016.03.21-07.40.07:384][476]LogSavePackage: Total save time: 17.555021ms
+[2016.03.21-07.40.07:384][476]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2016.03.21-07.40.07:794][501]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2016.03.21-07.40.07:853][501]BlueprintEditorCompileResults: Info [0237.52] Compile of ThirdPersonGameMode successful! [in 58 ms]
+[2016.03.21-07.40.08:379][530]LogSavePackage: Save=6.768649ms
+[2016.03.21-07.40.08:379][530]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonGameMode0117902E467FA4D306DA7581B42708AC.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2016.03.21-07.40.08:380][530]LogSavePackage: Total save time: 12.828331ms
+[2016.03.21-07.40.08:380][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2016.03.21-07.40.24:620][451]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.21-07.40.27:614][627]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/ThirdPersonBP/Blueprints/PlayerShooterCharacter.PlayerShooterCharacter from Character to CharacterBase_C...
+[2016.03.21-07.40.27:626][627]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.40.27:637][627]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.40.27:727][627]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0257.40] Compile of PlayerShooterCharacter successful, but with 1 Warning(s) [in 100 ms]
+[2016.03.21-07.40.27:727][627]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.40.27:727][627]BlueprintEditorCompileResults:Warning: Warning [0257.40] Compile of PlayerShooterCharacter successful, but with 1 Warning(s) [in 100 ms]
+[2016.03.21-07.40.29:028][703]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.40.29:039][703]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.40.29:133][703]LogBlueprint:Warning: [compiler PlayerShooterCharacter] Warning [0258.80] Compile of PlayerShooterCharacter successful, but with 1 Warning(s) [in 104 ms]
+[2016.03.21-07.40.29:133][703]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.40.29:133][703]BlueprintEditorCompileResults:Warning: Warning [0258.80] Compile of PlayerShooterCharacter successful, but with 1 Warning(s) [in 104 ms]
+[2016.03.21-07.40.30:004][749]LogSavePackage: Save=49.106892ms
+[2016.03.21-07.40.30:004][749]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacterA28B83F646D83AC10D4FE2BDB31616FC.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.40.30:006][749]LogSavePackage: Total save time: 60.785946ms
+[2016.03.21-07.40.30:006][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.40.45:352][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.21-07.40.57:932][418]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_OLD_C (ThirdPersonCharacter)
+[2016.03.21-07.40.59:269][494]Cmd: DELETE
+[2016.03.21-07.40.59:269][494]Cmd: ACTOR DELETE
+[2016.03.21-07.40.59:270][494]LogEditorActor: Deleted Actor: ThirdPersonCharacter_OLD_C
+[2016.03.21-07.40.59:299][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.40.59:318][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C36BF2E0
+[2016.03.21-07.40.59:321][494]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2016.03.21-07.41.04:177][786]Cmd: TRANSACTION UNDO
+[2016.03.21-07.41.04:177][786]LogEditorTransaction: Undo Delete Actors
+[2016.03.21-07.41.07:550][974]Cmd: DELETE
+[2016.03.21-07.41.07:550][974]Cmd: ACTOR DELETE
+[2016.03.21-07.41.07:550][974]LogEditorActor: Deleted Actor: ThirdPersonCharacter_OLD_C
+[2016.03.21-07.41.07:596][974]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2016.03.21-07.41.27:072][143]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-07.41.29:222][272]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-07.41.34:282][563]LogSavePackage: Save=151.350464ms
+[2016.03.21-07.41.34:282][563]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMap89FE0371454F97ACF5B6D8AD114608F1.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.41.34:284][563]LogSavePackage: Total save time: 160.728391ms
+[2016.03.21-07.41.34:284][563]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-07.41.49:716][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.41.49:721][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.39] Compile of AIShooter_Character successful, but with 1 Warning(s) [in 13 ms]
+[2016.03.21-07.41.49:735][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.21-07.41.49:740][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.41] Compile of AIShooter_Character successful, but with 1 Warning(s) [in 14 ms]
+[2016.03.21-07.41.49:740][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.41] Compile of AIShooter_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.21-07.41.49:740][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.41] Compile of AIShooter_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.21-07.41.49:770][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.44] Compile of AIShooter_Character successful, but with 4 Warning(s) [in 30 ms]
+[2016.03.21-07.41.49:770][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.44] Compile of AIShooter_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.21-07.41.49:770][478]LogBlueprint:Warning: [compiler AIShooter_Character] Warning [0339.44] Compile of AIShooter_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.21-07.42.17:003][878]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.21-07.42.21:368][138]BlueprintLog: New page: Compile AIShooter_Character
+[2016.03.21-07.42.21:437][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036A48D49A0
+[2016.03.21-07.42.21:437][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2411580
+[2016.03.21-07.42.21:446][138]BlueprintEditorCompileResults: Info [0371.12] Compile of AIShooter_Character successful! [in 77 ms]
+[2016.03.21-07.42.21:990][166]LogSavePackage: Save=21.353355ms
+[2016.03.21-07.42.21:990][166]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/AIShooter_Character71912281454DA1D546DC35BDE8625D1A.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset'
+[2016.03.21-07.42.21:992][166]LogSavePackage: Total save time: 23.013763ms
+[2016.03.21-07.42.21:992][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset
+[2016.03.21-07.42.31:019][703]LogEditorViewport: Clicking on Actor (LMB): AICharacter_OLD_C (AICharacter)
+[2016.03.21-07.42.33:537][852]Cmd: DELETE
+[2016.03.21-07.42.33:537][852]Cmd: ACTOR DELETE
+[2016.03.21-07.42.33:538][852]LogEditorActor: Deleted Actor: AICharacter_OLD_C
+[2016.03.21-07.42.33:539][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.42.33:560][852]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.03.21-07.42.52:481][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.42.52:481][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.21-07.42.52:491][964]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.03.21-07.42.53:292][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.21-07.42.53:303][ 12]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.03.21-07.42.55:786][161]BlueprintLog: New page: Compile AIShooter_Character
+[2016.03.21-07.42.55:894][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.21-07.42.55:923][161]BlueprintEditorCompileResults: Info [0405.59] Compile of AIShooter_Character successful! [in 135 ms]
+[2016.03.21-07.42.56:367][181]LogSavePackage: Save=19.625719ms
+[2016.03.21-07.42.56:367][181]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/AIShooter_Character12F0DECD4D32C26A808160AB1A4E9211.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset'
+[2016.03.21-07.42.56:368][181]LogSavePackage: Total save time: 31.349164ms
+[2016.03.21-07.42.56:368][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset
+[2016.03.21-07.43.01:559][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.43.01:559][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.43.01:560][488]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:43:01 PM)
+[2016.03.21-07.43.01:560][488]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.43.01:577][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017109s)
+[2016.03.21-07.43.01:577][488]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.43.01:577][488]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2016.03.21-07.43.01:578][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018091s)
+[2016.03.21-07.43.01:578][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.43.01:607][488]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.43.01:611][488]LogInit: FAudioDevice initialized.
+[2016.03.21-07.43.01:658][488]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.43.01:661][488]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.43.01
+[2016.03.21-07.43.01:661][488]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.43.01:661][488]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.43.01:662][488]LogWorld: Bringing up level for play took: 0.003052
+[2016.03.21-07.43.01:664][488]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.325
+[2016.03.21-07.43.01:664][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.43.06:645][785]LogBlueprintUserMessages: [BTT_DestroyMemory_C_1] Destroy
+[2016.03.21-07.43.11:028][ 48]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.12:729][150]LogBlueprintUserMessages: [BTT_DestroyMemory_C_1] Destroy
+[2016.03.21-07.43.14:179][237]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.16:179][357]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.18:178][477]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.19:329][546]LogBlueprintUserMessages: [BTT_DestroyMemory_C_1] Destroy
+[2016.03.21-07.43.21:162][656]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.23:162][776]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.25:162][896]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.43.25:578][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.43.25:633][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.43.25:686][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FAE562A0
+[2016.03.21-07.43.54:523][631]LogSavePackage: Save=149.135040ms
+[2016.03.21-07.43.54:523][631]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMapC69392134EDA607A6BBA10A17A1B046E.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.43.54:525][631]LogSavePackage: Total save time: 159.212958ms
+[2016.03.21-07.43.54:525][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-07.43.54:550][631]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.258
+[2016.03.21-07.44.27:094][949]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-07.44.32:159][236]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.03.21-07.44.32:299][236]LogRenderer: Reallocating scene render targets to support 1360x764 (Frame:23412).
+[2016.03.21-07.44.36:056][451]LogRenderer: Reallocating scene render targets to support 1360x1068 (Frame:23844).
+[2016.03.21-07.44.36:056][451]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-07.45.22:706][161]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2016.03.21-07.46.58:055][275]BlueprintLog: New page: Compile BTT_Attack
+[2016.03.21-07.46.58:119][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036F81B9080
+[2016.03.21-07.46.58:119][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2D3A5C0
+[2016.03.21-07.46.58:120][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2410720
+[2016.03.21-07.46.58:120][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FADAEE80
+[2016.03.21-07.46.58:121][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2DFF2E0
+[2016.03.21-07.46.58:121][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2DFDEE0
+[2016.03.21-07.46.58:126][275]BlueprintEditorCompileResults: Info [0647.79] Compile of BTT_Attack successful! [in 70 ms]
+[2016.03.21-07.46.58:620][299]LogSavePackage: Save=33.019066ms
+[2016.03.21-07.46.58:620][299]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/BTT_AttackFEDA8F104EAC97C5632085A200F4EAFC.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset'
+[2016.03.21-07.46.58:622][299]LogSavePackage: Total save time: 48.433337ms
+[2016.03.21-07.46.58:622][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset
+[2016.03.21-07.47.00:769][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.47.00:770][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.47.00:770][383]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:47:00 PM)
+[2016.03.21-07.47.00:770][383]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.47.00:787][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016805s)
+[2016.03.21-07.47.00:788][383]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.47.00:788][383]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2016.03.21-07.47.00:788][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017785s)
+[2016.03.21-07.47.00:819][383]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.47.00:821][383]LogInit: FAudioDevice initialized.
+[2016.03.21-07.47.00:858][383]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.47.00:861][383]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.47.00
+[2016.03.21-07.47.00:861][383]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.47.00:861][383]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.47.00:862][383]LogWorld: Bringing up level for play took: 0.003120
+[2016.03.21-07.47.00:864][383]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.874
+[2016.03.21-07.47.00:864][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.47.15:399][254]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.17:399][374]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.19:400][494]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.21:399][614]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.23:400][734]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.25:399][854]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.47.26:900][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.47.26:956][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.47.27:008][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036D6B13CE0
+[2016.03.21-07.49.18:686][242]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FAE4A660
+[2016.03.21-07.49.18:854][242]LogSavePackage: Save=147.874908ms
+[2016.03.21-07.49.18:854][242]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMap03CD6B6C42A99755AE7C3E99D70A5B27.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.49.18:856][242]LogSavePackage: Total save time: 167.185027ms
+[2016.03.21-07.49.18:856][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-07.49.20:577][336]LogSavePackage: Save=3.948699ms
+[2016.03.21-07.49.20:577][336]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/UE4_Mannequin_SkeletonBB9C7FFD43E83EFD0B12C88AB61EE2E9.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.03.21-07.49.20:579][336]LogSavePackage: Total save time: 13.414904ms
+[2016.03.21-07.49.20:579][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.03.21-07.49.24:111][517]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.49.24:224][517]BlueprintEditorCompileResults: Info [0793.89] Compile of PlayerShooterCharacter successful! [in 113 ms]
+[2016.03.21-07.49.25:000][556]LogSavePackage: Save=48.879040ms
+[2016.03.21-07.49.25:000][556]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter3D7AC1594A5236B0C4C1C78F6FEE6E9A.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.49.25:002][556]LogSavePackage: Total save time: 58.709860ms
+[2016.03.21-07.49.25:002][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.50.50:999][597]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.50.51:075][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.50.51:106][597]BlueprintEditorCompileResults: Info [0880.78] Compile of PlayerShooterCharacter successful! [in 107 ms]
+[2016.03.21-07.50.51:614][620]LogSavePackage: Save=57.668350ms
+[2016.03.21-07.50.51:614][620]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter68A709E14B431D86D289538A32F5C09B.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.50.51:615][620]LogSavePackage: Total save time: 66.533357ms
+[2016.03.21-07.50.51:616][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.50.54:071][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.50.54:245][735]LogSavePackage: Save=147.121307ms
+[2016.03.21-07.50.54:245][735]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMapD49D523A484A0E1C6B34F1A60A4602F5.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.50.54:247][735]LogSavePackage: Total save time: 154.501669ms
+[2016.03.21-07.50.54:247][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-07.53.19:031][686]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.53.19:141][686]BlueprintEditorCompileResults: Info [1028.81] Compile of PlayerShooterCharacter successful! [in 109 ms]
+[2016.03.21-07.53.19:778][716]LogSavePackage: Save=63.792953ms
+[2016.03.21-07.53.19:778][716]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter181C52FE409009D48417DE859DE6BD80.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.53.19:781][716]LogSavePackage: Total save time: 73.230159ms
+[2016.03.21-07.53.19:781][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.53.20:799][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.53.20:799][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.53.20:799][776]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:53:20 PM)
+[2016.03.21-07.53.20:799][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.53.20:817][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017805s)
+[2016.03.21-07.53.20:818][776]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.53.20:818][776]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2016.03.21-07.53.20:818][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018984s)
+[2016.03.21-07.53.20:818][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.53.20:851][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.53.20:855][776]LogInit: FAudioDevice initialized.
+[2016.03.21-07.53.20:889][776]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.53.20:892][776]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.53.20
+[2016.03.21-07.53.20:892][776]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.53.20:892][776]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.53.20:893][776]LogWorld: Bringing up level for play took: 0.003076
+[2016.03.21-07.53.20:895][776]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.905
+[2016.03.21-07.53.20:895][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.53.24:146][919]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.26:146][ 39]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.28:147][159]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.30:146][279]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.32:146][399]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.34:739][533]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.36:746][653]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.38:746][773]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.40:747][893]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.42:746][ 13]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.44:746][133]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.46:746][253]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.53.47:162][278]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.53.47:212][278]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.53.47:234][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FDC7C900
+[2016.03.21-07.54.24:471][985]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.54.24:580][985]BlueprintEditorCompileResults: Info [1094.25] Compile of PlayerShooterCharacter successful! [in 108 ms]
+[2016.03.21-07.54.25:520][ 33]LogSavePackage: Save=63.690571ms
+[2016.03.21-07.54.25:520][ 33]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter8590B31146D8FBD1E2FE87B73ED08753.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.54.25:522][ 33]LogSavePackage: Total save time: 76.823220ms
+[2016.03.21-07.54.25:522][ 33]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.54.28:593][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.54.28:593][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.54.28:593][134]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:54:28 PM)
+[2016.03.21-07.54.28:593][134]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.54.28:609][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016158s)
+[2016.03.21-07.54.28:610][134]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.54.28:610][134]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2016.03.21-07.54.28:610][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017099s)
+[2016.03.21-07.54.28:610][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.54.28:641][134]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.54.28:644][134]LogInit: FAudioDevice initialized.
+[2016.03.21-07.54.28:682][134]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.54.28:686][134]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.54.28
+[2016.03.21-07.54.28:686][134]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.54.28:686][134]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.54.28:686][134]LogWorld: Bringing up level for play took: 0.003374
+[2016.03.21-07.54.28:688][134]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.699
+[2016.03.21-07.54.28:689][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.54.35:043][514]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.55.04:882][790]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.55.22:548][850]LogBlueprintUserMessages: [BTT_DestroyMemory_C_7] Destroy
+[2016.03.21-07.55.28:231][191]LogBlueprintUserMessages: [PlayerShooterCharacter_C_8] ouch
+[2016.03.21-07.55.30:044][299]LogBlueprintUserMessages: [BTT_DestroyMemory_C_7] Destroy
+[2016.03.21-07.55.33:859][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.55.33:914][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.55.33:936][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000371AEE1940
+[2016.03.21-07.56.12:441][720]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.56.12:549][720]BlueprintEditorCompileResults: Info [1202.22] Compile of PlayerShooterCharacter successful! [in 107 ms]
+[2016.03.21-07.56.13:123][746]LogSavePackage: Save=65.201904ms
+[2016.03.21-07.56.13:123][746]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter78F846F449CE3EB7E6C1D793370A07AF.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.56.13:126][746]LogSavePackage: Total save time: 74.369173ms
+[2016.03.21-07.56.13:126][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.56.20:974][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.57.18:459][628]BlueprintLog: New page: Compile PlayerShooterCharacter
+[2016.03.21-07.57.18:569][628]BlueprintEditorCompileResults: Info [1268.24] Compile of PlayerShooterCharacter successful! [in 109 ms]
+[2016.03.21-07.57.19:261][662]LogSavePackage: Save=65.673775ms
+[2016.03.21-07.57.19:261][662]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/PlayerShooterCharacter5AB9034844E2B806DAE57EB1E4CEAE28.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset'
+[2016.03.21-07.57.19:264][662]LogSavePackage: Total save time: 75.305223ms
+[2016.03.21-07.57.19:264][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Blueprints/PlayerShooterCharacter.uasset
+[2016.03.21-07.57.22:277][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.57.22:277][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.57.22:277][806]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:57:22 PM)
+[2016.03.21-07.57.22:277][806]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.57.22:295][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017402s)
+[2016.03.21-07.57.22:295][806]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.57.22:296][806]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2016.03.21-07.57.22:296][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018592s)
+[2016.03.21-07.57.22:296][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.21-07.57.22:329][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.57.22:333][806]LogInit: FAudioDevice initialized.
+[2016.03.21-07.57.22:367][806]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.57.22:370][806]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.57.22
+[2016.03.21-07.57.22:370][806]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.57.22:370][806]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.57.22:370][806]LogWorld: Bringing up level for play took: 0.003102
+[2016.03.21-07.57.22:373][806]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.383
+[2016.03.21-07.57.22:373][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.57.26:111][ 29]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.57.28:077][147]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.57.28:845][193]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.58.32:993][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.58.33:047][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.58.33:070][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036D14D2FC0
+[2016.03.21-07.58.34:937][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.58.34:937][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-07.58.34:937][150]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2016, 11:58:34 PM)
+[2016.03.21-07.58.34:937][150]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-07.58.34:954][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016284s)
+[2016.03.21-07.58.34:954][150]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-07.58.34:954][150]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2016.03.21-07.58.34:954][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017173s)
+[2016.03.21-07.58.34:985][150]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-07.58.34:989][150]LogInit: FAudioDevice initialized.
+[2016.03.21-07.58.35:022][150]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-07.58.35:026][150]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-03.58.35
+[2016.03.21-07.58.35:026][150]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.58.35:026][150]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-07.58.35:027][150]LogWorld: Bringing up level for play took: 0.003419
+[2016.03.21-07.58.35:029][150]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.039
+[2016.03.21-07.58.35:029][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.58.37:415][292]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.39:415][412]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.41:416][532]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.43:415][652]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.45:415][772]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.47:416][892]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.49:416][ 12]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.51:415][132]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.53:415][252]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.55:415][372]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.57:416][492]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.58.59:416][612]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.01:416][732]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.03:415][852]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.05:415][972]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.07:415][ 92]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.09:416][212]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.10:533][279]LogBlueprintUserMessages: [BTT_DestroyMemory_C_11] Destroy
+[2016.03.21-07.59.12:398][391]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.14:382][510]LogBlueprintUserMessages: [BTT_DestroyMemory_C_11] Destroy
+[2016.03.21-07.59.15:899][601]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.17:899][721]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.19:550][820]LogBlueprintUserMessages: [BTT_DestroyMemory_C_11] Destroy
+[2016.03.21-07.59.25:566][181]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.27:566][301]LogBlueprintUserMessages: [PlayerShooterCharacter_C_9] ouch
+[2016.03.21-07.59.29:516][418]LogBlueprintUserMessages: [BTT_DestroyMemory_C_11] Destroy
+[2016.03.21-07.59.34:015][688]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.59.34:317][706]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.59.34:517][718]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-07.59.38:729][970]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.59.38:783][970]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-07.59.38:837][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370A385B20
+[2016.03.21-07.59.44:622][304]LogSavePackage: Save=148.279053ms
+[2016.03.21-07.59.44:622][304]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Saved/ThirdPersonExampleMapF1F1E54E4FA6F6C81DB54AB529BBEA69.tmp' to '../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.21-07.59.44:623][304]LogSavePackage: Total save time: 166.527383ms
+[2016.03.21-07.59.44:623][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Unreal Projects/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.21-08.00.52:365][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-08.00.52:365][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-08.00.52:365][174]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 12:00:52 AM)
+[2016.03.21-08.00.52:365][174]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.21-08.00.52:384][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019250s)
+[2016.03.21-08.00.52:385][174]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.21-08.00.52:385][174]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2016.03.21-08.00.52:385][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020388s)
+[2016.03.21-08.00.52:422][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-08.00.52:425][174]LogInit: FAudioDevice initialized.
+[2016.03.21-08.00.52:457][174]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.21-08.00.52:462][174]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.21-04.00.52
+[2016.03.21-08.00.52:462][174]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-08.00.52:462][174]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-08.00.52:463][174]LogWorld: Bringing up level for play took: 0.005022
+[2016.03.21-08.00.52:465][174]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.475
+[2016.03.21-08.00.52:465][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-08.01.05:522][955]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-08.01.06:155][993]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-08.01.06:653][ 23]LogBlueprintUserMessages: [PlayerShooterCharacter_C_10] ouch
+[2016.03.21-08.01.06:722][ 27]LogBlueprintUserMessages: [AIShooter_Character_C_0] ouch
+[2016.03.21-08.01.15:837][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-08.01.15:890][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.21-08.01.15:912][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000373C8753A0
+[2016.03.21-08.06.38:792][533]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-08.06.43:967][843]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2016.03.21-08.06.47:566][ 58]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2016.03.21-08.06.49:216][157]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-08.06.53:428][397]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.03.21-08.06.58:655][673]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.21-08.10.10:302][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FAE4B6A0
+[2016.03.21-08.10.10:302][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036F81BB920
+[2016.03.21-08.10.10:303][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2D0F880
+[2016.03.21-08.10.10:303][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FA2F2200
+[2016.03.21-08.10.10:307][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036FA2F0E00
+[2016.03.21-08.10.10:307][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.028
+[2016.03.21-08.17.52:391][942]Cmd: QUIT_EDITOR
+[2016.03.21-08.17.53:409][942]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.21-08.17.53:410][942]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.21-08.17.53:460][942]LogExit: Preparing to exit.
+[2016.03.21-08.17.53:795][942]LogExit: Editor shut down
+[2016.03.21-08.17.53:795][942]LogExit: Transaction tracking system shut down
+[2016.03.21-08.17.53:798][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036A681CB80
+[2016.03.21-08.17.53:799][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C8DDB880
+[2016.03.21-08.17.53:799][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C8F56A20
+[2016.03.21-08.17.53:799][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036F4E1D580
+[2016.03.21-08.17.53:800][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036ED0E5EE0
+[2016.03.21-08.17.53:802][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2D382C0
+[2016.03.21-08.17.53:802][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C2D0EA20
+[2016.03.21-08.17.53:952][942]LogExit: Object subsystem successfully closed.
+[2016.03.21-08.17.53:962][942]LogD3D11RHI: Shutdown
+[2016.03.21-08.17.53:962][942]LogD3D11RHI: CleanupD3DDevice
+[2016.03.21-08.17.54:023][942]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (201)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.21-08.17.54:033][942]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.21-08.17.54:034][942]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.21-08.17.54:299][942]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.21-08.17.54:300][942]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.21-08.17.54:301][942]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.21-08.17.54:416][942]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.21-08.17.54:425][942]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.21-08.17.54:425][942]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.21-08.17.54:425][942]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.21-08.17.54:425][942]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.21-08.17.54:425][942]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.21-08.17.54:426][942]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.21-08.17.54:427][942]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.21-08.17.54:427][942]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.21-08.17.54:491][942]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.21-08.17.54:491][942]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.21-08.17.54:491][942]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.21-08.17.54:592][942]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.21-08.17.54:592][942]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.21-08.17.54:592][942]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.21-08.17.54:594][942]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.21-08.17.54:596][942]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.21-08.17.54:665][942]LogDerivedDataCache: Shutdown
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.21-08.17.54:665][942]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.21-08.17.55:666][942]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.21-08.17.55:667][942]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.21-08.17.55:669][942]LogExit: Exiting.
+[2016.03.21-08.17.55:681][942]Log file closed, 03/21/16 04:17:55
