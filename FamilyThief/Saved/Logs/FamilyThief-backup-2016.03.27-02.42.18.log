@@ -1,0 +1,676 @@
+﻿[2016.03.27-06.29.51:885][  0]Log file open, 03/27/16 02:29:51
+[2016.03.27-06.29.51:885][  0]LogInit:Display: Running engine for game: FamilyThief
+[2016.03.27-06.29.51:885][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.27-06.29.51:885][  0]LogInit:Display: RandInit(-1765783443) SRandInit(-1765783442).
+[2016.03.27-06.29.51:885][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.27-06.29.51:885][  0]LogStats: Stats thread started at 0.065875
+[2016.03.27-06.29.51:885][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.27-06.29.51:885][  0]LogInit: API Version: 2758231
+[2016.03.27-06.29.51:885][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.27-06.29.51:885][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.27-06.29.51:885][  0]LogInit: Build Configuration: Development
+[2016.03.27-06.29.51:885][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.27-06.29.51:885][  0]LogInit: Command line:  
+[2016.03.27-06.29.51:885][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.27-06.29.51:885][  0]LogInit: Rocket: 1
+[2016.03.27-06.29.51:889][  0]LogInit: Using libcurl 7.41.0
+[2016.03.27-06.29.51:889][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.27-06.29.51:889][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.27-06.29.51:889][  0]LogInit:  - other features:
+[2016.03.27-06.29.51:889][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.27-06.29.51:889][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.27-06.29.51:889][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.27-06.29.51:889][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.27-06.29.51:889][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.27-06.29.51:889][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.27-06.29.51:889][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.27-06.29.51:889][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.27-06.29.51:889][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.27-06.29.51:889][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.27-06.29.51:893][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.27-06.29.51:897][  0]LogInit: Object subsystem initialized
+[2016.03.27-06.29.51:898][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.27-06.29.51:898][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.27-06.29.51:906][  0]LogInit: Computer: DESKTOP-J618I8O
+[2016.03.27-06.29.51:906][  0]LogInit: User: Doug
+[2016.03.27-06.29.51:906][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.27-06.29.51:906][  0]LogInit: High frequency timer resolution =3.897224 MHz
+[2016.03.27-06.29.51:906][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.03.27-06.29.51:906][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.27-06.29.51:906][  0]LogMemory: Process Physical Memory: 56.29 MB used, 56.29 MB peak
+[2016.03.27-06.29.51:906][  0]LogMemory: Process Virtual Memory: 58.77 MB used, 58.77 MB peak
+[2016.03.27-06.29.51:906][  0]LogMemory: Physical Memory: 3921.13 MB used, 16344.24 MB total
+[2016.03.27-06.29.51:906][  0]LogMemory: Virtual Memory: 380.89 MB used, 134217728.00 MB total
+[2016.03.27-06.29.51:932][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.27-06.29.52:322][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M                   (Feature Level 11_0)
+[2016.03.27-06.29.52:322][  0]LogD3D11RHI: Adapter has 8093MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 3 output[s]
+[2016.03.27-06.29.52:323][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.27-06.29.52:323][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 0 output[s]
+[2016.03.27-06.29.52:323][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.27-06.29.52:326][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.27-06.29.52:326][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.27-06.29.52:336][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.27-06.29.52:350][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Intermediate/Shaders/WorkingDirectory/6084/).
+[2016.03.27-06.29.52:350][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Doug!/AppData/Local/Temp/UnrealShaderWorkingDir/0D5D53E34A2DFFB689D1F5948D24C18F/'.
+[2016.03.27-06.29.52:350][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.27-06.29.52:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.27-06.29.52:948][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.27-06.29.52:951][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.27-06.29.52:954][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.27-06.29.52:957][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.27-06.29.52:959][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.27-06.29.52:962][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.27-06.29.52:964][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.27-06.29.52:966][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.27-06.29.52:968][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.27-06.29.52:970][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.27-06.29.52:974][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.27-06.29.52:974][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.27-06.29.52:975][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.27-06.29.52:990][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.27-06.29.52:992][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.27-06.29.52:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.27-06.29.52:996][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.27-06.29.52:996][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.27-06.29.53:040][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.27-06.29.53:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.27-06.29.53:121][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.27-06.29.53:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Doug!/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.27-06.29.53:272][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.27-06.29.53:274][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.27-06.29.53:364][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.27-06.29.53:364][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.27-06.29.53:537][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.27-06.29.54:072][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.27-06.29.54:159][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.03.27-06.29.54:290][  0]SourceControl: Info Source control is disabled
+[2016.03.27-06.29.54:291][  0]SourceControl: Info Source control is disabled
+[2016.03.27-06.29.54:301][  0]SourceControl: Info Source control is disabled
+[2016.03.27-06.29.54:308][  0]SourceControl: Info Source control is disabled
+[2016.03.27-06.29.54:461][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.27-06.29.54:461][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.27-06.29.54:505][  0]LogEngine: Initializing Engine...
+[2016.03.27-06.29.54:507][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.27-06.29.54:507][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.27-06.29.54:590][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.27-06.29.54:598][  0]LogInit: XAudio2 using 'U500CV-UMK-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.27-06.29.54:603][  0]LogInit: FAudioDevice initialized.
+[2016.03.27-06.29.54:621][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Doug!/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.27-06.29.54:624][  0]LogInit: Texture streaming: Enabled
+[2016.03.27-06.29.54:628][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.27-06.29.54:628][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.27-06.29.54:628][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 52b10e6445fa931ea2b57b9ab393f2a9|a024f71aa653453a8ecdbc4f8186e225|56a0a37a-fce5-4ac1-879f-0e1c059c54f2
+[2016.03.27-06.29.54:628][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.27-06.29.54:634][  0]LogInit: Transaction tracking system initialized
+[2016.03.27-06.29.54:649][  0]BlueprintLog: New page: Editor Load
+[2016.03.27-06.29.54:691][  0]LocalizationService: Info Localization service is disabled
+[2016.03.27-06.29.54:741][  0]LogConsoleResponse:Display: 
+[2016.03.27-06.29.54:816][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.27-06.29.54:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/' took 0.02s
+[2016.03.27-06.29.54:854][  0]SourceControl: Info Source control is disabled
+[2016.03.27-06.29.54:855][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.27-06.29.54:855][  0]LightingResults: New page: Lighting Build
+[2016.03.27-06.29.54:856][  0]MapCheck: New page: Map Check
+[2016.03.27-06.29.54:856][  0]LightingResults: New page: Lighting Build
+[2016.03.27-06.29.54:864][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077436E7B00
+[2016.03.27-06.29.54:965][  0]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.29.54:965][  0]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.29.54:967][  0]LogBlueprint:Warning: [compiler CharacterBase] Warning [0003.38] Compile of CharacterBase successful, but with 2 Warning(s) [in 5 ms]
+[2016.03.27-06.29.54:967][  0]LogBlueprint:Warning: [compiler CharacterBase] Warning [0003.39] Compile of CharacterBase successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.27-06.29.54:967][  0]LogBlueprint:Warning: [compiler CharacterBase] Warning [0003.39] Compile of CharacterBase successful, but with 4 Warning(s) [in 0 ms]
+[2016.03.27-06.29.55:554][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.27-06.29.55:559][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.27-06.29.55:560][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.27-06.29.55:596][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.897ms to complete.
+[2016.03.27-06.29.55:596][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.742
+[2016.03.27-06.29.55:729][  0]LogCollectionManager: Loaded 0 collections in 0.000951 seconds
+[2016.03.27-06.29.55:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Saved/Collections/' took 0.01s
+[2016.03.27-06.29.55:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/Developers/Doug/Collections/' took 0.01s
+[2016.03.27-06.29.55:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/Collections/' took 0.01s
+[2016.03.27-06.29.55:777][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.27-06.29.55:783][  0]LogContentBrowser: Native class hierarchy populated in 0.0054 seconds. Added 1893 classes and 338 folders.
+[2016.03.27-06.29.55:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.03.27-06.29.55:815][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.27-06.29.55:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.03.27-06.29.55:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.27-06.29.55:837][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.27-06.29.55:859][  0]LogLoad: Full Startup: 4.28 seconds (BP compile: 0.21 seconds)
+[2016.03.27-06.29.55:877][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.27-06.29.55:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.27-06.29.55:998][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2016.03.27-06.29.56:026][  0]LogRenderer: Reallocating scene render targets to support 1192x616 (Frame:2).
+[2016.03.27-06.29.56:256][  7]LogAssetRegistry: Asset discovery search completed in 2.1083 seconds
+[2016.03.27-06.29.56:256][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.27-06.29.56:256][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.03.27-06.29.59:120][163]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.27-06.29.59:428][163]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2016.03.27-06.31.43:402][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.31.43:403][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.27-06.31.43:404][ 70]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2016, 10:31:43 PM)
+[2016.03.27-06.31.43:404][ 70]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.27-06.31.43:427][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023602s)
+[2016.03.27-06.31.43:428][ 70]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.27-06.31.43:429][ 70]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2016.03.27-06.31.43:429][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025371s)
+[2016.03.27-06.31.43:429][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.27-06.31.43:501][ 70]LogInit: XAudio2 using 'U500CV-UMK-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.27-06.31.43:504][ 70]LogInit: FAudioDevice initialized.
+[2016.03.27-06.31.43:557][ 70]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.27-06.31.43:561][ 70]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.27-02.31.43
+[2016.03.27-06.31.43:561][ 70]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.31.43:561][ 70]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.31.43:562][ 70]LogWorld: Bringing up level for play took: 0.003992
+[2016.03.27-06.31.43:565][ 70]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.021
+[2016.03.27-06.31.43:565][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.31.43:566][ 70]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.43:566][ 70]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.43:566][ 70]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.43:566][ 70]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.48:118][341]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.48:118][341]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.48:118][341]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.48:118][341]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.50:401][478]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.50:401][478]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.50:401][478]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.50:401][478]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.50:451][481]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.50:451][481]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.50:451][481]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_4
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.50:451][481]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.51:619][551]LogBlueprintUserMessages: [AIShooter_Character_C_2] ouch
+[2016.03.27-06.31.52:003][574]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_7
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.52:003][574]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.52:003][574]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_7
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.52:003][574]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.52:569][608]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_5
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.52:569][608]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.52:569][608]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_0.BTComponent.BTT_SetWalkSpeedAndFocus_C_5
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.52:569][608]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.53:236][648]LogBlueprintUserMessages: [AIShooter_Character_C_2] ouch
+[2016.03.27-06.31.53:753][679]LogBlueprintUserMessages: [AIShooter_Character_C_2] ouch
+[2016.03.27-06.31.53:755][679]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_1.BTComponent.BTT_SetWalkSpeedAndFocus_C_8
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.53:755][679]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.53:755][679]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_1.BTComponent.BTT_SetWalkSpeedAndFocus_C_8
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.53:755][679]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.55:285][771]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_1.BTComponent.BTT_SetWalkSpeedAndFocus_C_9
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.31.55:286][771]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.55:286][771]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_1.BTComponent.BTT_SetWalkSpeedAndFocus_C_9
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.31.55:286][771]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.31.55:685][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.31.55:730][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.31.55:759][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000775E2FB9C0
+[2016.03.27-06.34.10:460][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.27-06.34.24:698][980]BlueprintLog: New page: Compile CharacterBase
+[2016.03.27-06.34.24:716][980]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.24:716][980]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.24:736][980]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.27-06.34.25:079][980]LogBlueprint:Warning: [compiler CharacterBase] Warning [0273.50] Compile of CharacterBase successful, but with 2 Warning(s) [in 381 ms]
+[2016.03.27-06.34.25:079][980]BlueprintEditorCompileResults:Warning: Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.25:079][980]BlueprintEditorCompileResults:Warning: Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.25:079][980]BlueprintEditorCompileResults:Warning: Warning [0273.50] Compile of CharacterBase successful, but with 2 Warning(s) [in 381 ms]
+[2016.03.27-06.34.25:664][  4]LogSavePackage: Save=71.508080ms
+[2016.03.27-06.34.25:664][  4]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Saved/CharacterBase34AAB97B47527D61B5E6FFA0234BFF21.tmp' to '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset'
+[2016.03.27-06.34.25:665][  4]LogSavePackage: Total save time: 86.830523ms
+[2016.03.27-06.34.25:665][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset
+[2016.03.27-06.34.45:719][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.27-06.34.54:172][703]BlueprintLog: New page: Compile CharacterBase
+[2016.03.27-06.34.54:190][703]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.54:191][703]LogBlueprint:Warning: [compiler CharacterBase] Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.54:207][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.27-06.34.54:553][703]LogBlueprint:Warning: [compiler CharacterBase] Warning [0302.97] Compile of CharacterBase successful, but with 2 Warning(s) [in 381 ms]
+[2016.03.27-06.34.54:553][703]BlueprintEditorCompileResults:Warning: Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.54:553][703]BlueprintEditorCompileResults:Warning: Warning 'Player Shooter Character' does not inherit from 'Character Base' ( Cast To PlayerShooterCharacter  would always fail).
+[2016.03.27-06.34.54:553][703]BlueprintEditorCompileResults:Warning: Warning [0302.97] Compile of CharacterBase successful, but with 2 Warning(s) [in 381 ms]
+[2016.03.27-06.34.55:055][723]LogSavePackage: Save=68.815392ms
+[2016.03.27-06.34.55:055][723]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Saved/CharacterBase6BA2B4CC48EAD82F03615C908881F058.tmp' to '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset'
+[2016.03.27-06.34.55:057][723]LogSavePackage: Total save time: 78.175131ms
+[2016.03.27-06.34.55:057][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset
+[2016.03.27-06.35.27:840][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.35.27:842][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.27-06.35.27:842][655]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2016, 10:35:27 PM)
+[2016.03.27-06.35.27:842][655]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.27-06.35.27:859][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016967s)
+[2016.03.27-06.35.27:860][655]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.27-06.35.27:860][655]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2016.03.27-06.35.27:860][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018005s)
+[2016.03.27-06.35.27:860][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.27-06.35.27:899][655]LogInit: XAudio2 using 'U500CV-UMK-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.27-06.35.27:902][655]LogInit: FAudioDevice initialized.
+[2016.03.27-06.35.27:933][655]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.27-06.35.27:937][655]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.27-02.35.27
+[2016.03.27-06.35.27:937][655]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.35.27:937][655]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.35.27:937][655]LogWorld: Bringing up level for play took: 0.003832
+[2016.03.27-06.35.27:940][655]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.397
+[2016.03.27-06.35.27:940][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.35.27:941][655]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.27:941][655]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.27:941][655]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.27:941][655]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.30:491][803]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.30:491][803]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.30:491][803]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.30:491][803]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.33:993][  9]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.33:993][  9]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.33:993][  9]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.33:993][  9]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.36:236][141]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.36:236][141]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.36:236][141]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_16
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.36:237][141]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.36:609][163]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_17
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.36:609][163]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.36:609][163]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_2.BTComponent.BTT_SetWalkSpeedAndFocus_C_17
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.36:609][163]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.38:252][259]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.35.40:599][397]LogBlueprintUserMessages: [PlayerShooterCharacter_C_5] ouch
+[2016.03.27-06.35.42:610][515]LogBlueprintUserMessages: [PlayerShooterCharacter_C_5] ouch
+[2016.03.27-06.35.44:162][606]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.35.44:612][633]LogBlueprintUserMessages: [PlayerShooterCharacter_C_5] ouch
+[2016.03.27-06.35.46:653][750]LogPackageName: SearchForPackageOnDisk took   0.048s to resolve ThirdPersonExampleMap.umap.
+[2016.03.27-06.35.46:714][751]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve ThirdPersonExampleMap.umap.
+[2016.03.27-06.35.46:714][751]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.27-06.35.46:714][751]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.27-06.35.46:746][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000779E3E4F40
+[2016.03.27-06.35.46:746][751]Cmd: MEM
+[2016.03.27-06.35.46:777][751]LogMemory: Platform Memory Stats for Windows
+[2016.03.27-06.35.46:777][751]LogMemory: Process Physical Memory: 1320.20 MB used, 1335.52 MB peak
+[2016.03.27-06.35.46:777][751]LogMemory: Process Virtual Memory: 2515.19 MB used, 2521.07 MB peak
+[2016.03.27-06.35.46:777][751]LogMemory: Physical Memory: 5726.79 MB used, 16344.24 MB total
+[2016.03.27-06.35.46:777][751]LogMemory: Virtual Memory: 3244.79 MB used, 134217728.00 MB total
+[2016.03.27-06.35.46:777][751]LogMemory: 
+[2016.03.27-06.35.46:777][751]Allocator Stats for TBB: (not implemented)
+[2016.03.27-06.35.46:777][751]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.27-06.35.46:792][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015084s)
+[2016.03.27-06.35.46:793][751]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.27-06.35.46:793][751]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2016.03.27-06.35.46:793][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016082s)
+[2016.03.27-06.35.46:793][751]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.27-06.35.46:805][751]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.27-02.35.46
+[2016.03.27-06.35.46:805][751]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.35.46:805][751]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.35.46:806][751]LogWorld: Bringing up level for play took: 0.011869
+[2016.03.27-06.35.46:809][751]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_3.BTComponent.BTT_SetWalkSpeedAndFocus_C_24
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.35.46:809][751]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.46:809][751]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_3.BTComponent.BTT_SetWalkSpeedAndFocus_C_24
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.35.46:809][751]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.35.50:357][958]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.35.50:572][971]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.35.50:742][981]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.36.00:921][578]LogCharacterMovement: PlayerShooterCharacter_C_6 is stuck and failed to move!
+[2016.03.27-06.36.00:955][580]LogCharacterMovement: PlayerShooterCharacter_C_6 is stuck and failed to move!
+[2016.03.27-06.36.00:972][581]LogCharacterMovement: PlayerShooterCharacter_C_6 is stuck and failed to move!
+[2016.03.27-06.36.02:765][687]LogBlueprintUserMessages: [PlayerShooterCharacter_C_6] ouch
+[2016.03.27-06.36.03:739][744]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.36.03:963][756]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.36.04:149][767]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.36.15:001][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.36.15:034][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.36.15:082][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000773454DF80
+[2016.03.27-06.36.25:355][571]LogSavePackage: Save=188.019989ms
+[2016.03.27-06.36.25:355][571]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Saved/ThirdPersonExampleMap624EB1B34F9C9C7E5CBA0F9901AABE28.tmp' to '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.27-06.36.25:358][571]LogSavePackage: Total save time: 206.361759ms
+[2016.03.27-06.36.25:358][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.27-06.40.35:641][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.40.35:644][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.27-06.40.35:645][638]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2016, 10:40:35 PM)
+[2016.03.27-06.40.35:645][638]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.27-06.40.35:670][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025712s)
+[2016.03.27-06.40.35:674][638]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.27-06.40.35:674][638]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2016.03.27-06.40.35:675][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030002s)
+[2016.03.27-06.40.35:725][638]LogInit: XAudio2 using 'U500CV-UMK-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.27-06.40.35:728][638]LogInit: FAudioDevice initialized.
+[2016.03.27-06.40.35:761][638]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.27-06.40.35:765][638]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.27-02.40.35
+[2016.03.27-06.40.35:765][638]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.40.35:765][638]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.27-06.40.35:766][638]LogWorld: Bringing up level for play took: 0.003689
+[2016.03.27-06.40.35:768][638]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.225
+[2016.03.27-06.40.35:769][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.40.35:769][638]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.40.35:769][638]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.35:769][638]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.40.35:769][638]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.37:362][729]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.40.37:362][729]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.37:362][729]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.40.37:362][729]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.37:970][763]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_33
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.40.37:970][763]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.37:970][763]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_33
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.40.37:970][763]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.38:944][819]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.40.38:944][819]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.38:944][819]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_32
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.40.38:944][819]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.40:515][910]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component'
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_33
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:010E
+[2016.03.27-06.40.40:515][910]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCharacter_Movement_Component' from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.40:515][910]LogScript:Warning: Attempt to assign variable through None
+	BTT_SetWalkSpeedAndFocus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_Controller_C_4.BTComponent.BTT_SetWalkSpeedAndFocus_C_33
+	Function /Game/ThirdPersonBP/AICharacter/BTT_SetWalkSpeedAndFocus.BTT_SetWalkSpeedAndFocus_C:ExecuteUbergraph_BTT_SetWalkSpeedAndFocus:0123
+[2016.03.27-06.40.40:515][910]PIE:Error: Error Attempt to assign variable through None from node Set MaxWalkSpeed in graph 'EventGraph' in blueprint BTT_SetWalkSpeedAndFocus
+[2016.03.27-06.40.40:899][931]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.40.41:152][946]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.40.41:339][957]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.40.51:675][551]LogBlueprintUserMessages: [PlayerShooterCharacter_C_7] ouch
+[2016.03.27-06.40.53:691][670]LogBlueprintUserMessages: [PlayerShooterCharacter_C_7] ouch
+[2016.03.27-06.40.54:048][690]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.40.54:214][700]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.40.54:465][715]LogBlueprintUserMessages: [AIShooter_Character_C_1] ouch
+[2016.03.27-06.41.00:513][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.41.00:553][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.27-06.41.00:602][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077321E0F40
+[2016.03.27-06.41.03:957][243]LogSavePackage: Save=169.891190ms
+[2016.03.27-06.41.03:957][243]LogSavePackage: Moving '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Saved/ThirdPersonExampleMap76B497944B8E051271745C8ABA62FCA7.tmp' to '../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.03.27-06.41.03:959][243]LogSavePackage: Total save time: 178.586345ms
+[2016.03.27-06.41.03:959][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Doug!/Documents/Game310/TinyThief/FamilyThief/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.03.27-06.41.20:254][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.27-06.41.20:316][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.27-06.41.20:379][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.27-06.41.20:423][904]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.27-06.41.20:742][905]Cmd: QUIT_EDITOR
+[2016.03.27-06.41.20:998][905]LogExit: Preparing to exit.
+[2016.03.27-06.41.21:411][905]LogExit: Editor shut down
+[2016.03.27-06.41.21:411][905]LogExit: Transaction tracking system shut down
+[2016.03.27-06.41.21:413][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007749FEDA80
+[2016.03.27-06.41.21:413][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000775799B880
+[2016.03.27-06.41.21:413][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007757B1EB60
+[2016.03.27-06.41.21:414][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000775DD88900
+[2016.03.27-06.41.21:416][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000777CCB58A0
+[2016.03.27-06.41.21:416][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000770149E840
+[2016.03.27-06.41.21:417][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077062EB060
+[2016.03.27-06.41.21:417][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000770AFA3060
+[2016.03.27-06.41.21:417][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000770FD760C0
+[2016.03.27-06.41.21:417][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077147DC860
+[2016.03.27-06.41.21:418][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077192B67A0
+[2016.03.27-06.41.21:418][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000771E486A20
+[2016.03.27-06.41.21:418][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007783697060
+[2016.03.27-06.41.21:419][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007787EE20C0
+[2016.03.27-06.41.21:419][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000778D1F0540
+[2016.03.27-06.41.21:577][905]LogExit: Object subsystem successfully closed.
+[2016.03.27-06.41.21:585][905]LogD3D11RHI: Shutdown
+[2016.03.27-06.41.21:585][905]LogD3D11RHI: CleanupD3DDevice
+[2016.03.27-06.41.21:635][905]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.27-06.41.21:645][905]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.27-06.41.21:646][905]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.27-06.41.21:647][905]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.27-06.41.21:647][905]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.27-06.41.21:647][905]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.27-06.41.21:647][905]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.27-06.41.21:994][905]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.27-06.41.21:995][905]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.27-06.41.21:996][905]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.27-06.41.21:996][905]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.27-06.41.21:996][905]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.27-06.41.22:179][905]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.27-06.41.22:180][905]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.27-06.41.22:192][905]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.27-06.41.22:193][905]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.27-06.41.22:194][905]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.27-06.41.22:287][905]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.27-06.41.22:287][905]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.27-06.41.22:287][905]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.27-06.41.22:388][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.27-06.41.22:388][905]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.27-06.41.22:388][905]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.27-06.41.22:390][905]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.27-06.41.22:392][905]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.27-06.41.22:406][905]LogDerivedDataCache: Shutdown
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.27-06.41.22:406][905]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.27-06.41.23:408][905]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.27-06.41.23:409][905]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.27-06.41.23:411][905]LogExit: Exiting.
+[2016.03.27-06.41.23:414][905]Log file closed, 03/27/16 02:41:23
